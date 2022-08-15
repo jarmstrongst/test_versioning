@@ -6,7 +6,7 @@ class MathMachine():
 		self.z = z
 	
 	def do_math_magic(self):
-		return self.x * self.y + self.z 
+		return self.x * self.y / self.z 
 
 
 if __name__ == '__main__':
