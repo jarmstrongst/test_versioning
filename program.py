@@ -15,4 +15,4 @@ if __name__ == '__main__':
 	#print(machine_1.do_other_math_magic())
 	machine_2 = MathMachine()
 	print(machine_2.do_math_magic(5,6,7))
-	print(machine_2.do_other_math_maginc(8,9))
+	print(machine_2.do_other_math_magic(8,9))
