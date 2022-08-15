@@ -5,6 +5,9 @@ class MathMachine():
 		self.y = y
 		self.z = z
 	
+	def do_other_math_magic(self):
+		return self.x ** self.y
+
 	def do_math_magic(self):
 		return self.x * self.y / self.z 
 
@@ -13,3 +16,4 @@ if __name__ == '__main__':
 	print('hello world!')
 	machine_1 = MathMachine(1,2,3)
 	print(machine_1.do_math_magic())
+	print(machine_1.do_other_math_magic())
